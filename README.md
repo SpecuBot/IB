@@ -19,6 +19,7 @@ Following must be fullfilled:
     - Check the "Timing / Allow order to be activated, triggered or filled outside of regular trading hours"
 
 4. Logging into Discord using user token is officially not supported and can lead to user deactivation or ban - you do it on your own risk.
+
 5.Please restart this application at least 1 time weekly - I personally suggest to restart it daily.
   You can use <add key="StartDirectly" value="True" /> in SimpleBot.dll.config file to start it from command line or scheduler without clicking start-button.
 
