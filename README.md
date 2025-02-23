@@ -25,6 +25,9 @@ Following must be fullfilled:
 5. Please restart this application at least 1 time weekly - I personally suggest to restart it daily.
    You can use <add key="StartDirectly" value="True" /> in SimpleBot.dll.config file to start it from command line or scheduler without clicking start-button.
 
+   <add key="StartDirectly" value="True" />
+
+
 -----------
 The software package provided in this repository is provided "as is" and without warranty of any kind, express or implied,
 including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. 
