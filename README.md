@@ -3,7 +3,7 @@
 This software bot places automatically trades from Vader's discord channels.
 Trades are taken in realtime without any delay and always using MARKET orders with alerted size x multiplicator.
 
-!! PLEASE DISABLE the possibility for selling/writing options, because it can happen unintentional in unfavorable circumstances !!! 
+!! PLEASE DISABLE the possibility for selling/writing options in IBKR account settings, because it can happen unintentional in unfavorable circumstances !!! 
 
 Following must be fullfilled:
 1. .NET8 framework on Windows 10/11 desktop installed
@@ -11,10 +11,12 @@ Following must be fullfilled:
   !! PLEASE DISABLE the possibility for selling options in IBKR account settings, because it can happen unintentional in unfavorable circumstances !!! 
   
 3. Follow the steps in IBKR Trader Workstation to enable API access:
+
     A. Go to File -> Global Configuration -> API -> Settings
     - Check the "Enable ActiveX and Socket Clients" box
     - Uncheck the "Read-Only API" box
     - Check the "Allow connections from localhost only" box
+
     B. Go to File -> Global Configuration -> Preset -> Options:
     - Check the "Timing / Allow order to be activated, triggered or filled outside of regular trading hours"
 
